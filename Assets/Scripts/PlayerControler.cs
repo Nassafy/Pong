@@ -34,7 +34,7 @@ public class PlayerControler : MonoBehaviour {
 			other.gameObject.SetActive(false);
 			count++;
 			UpdateScore();
-			if(count == 7)
+			if(count == 8)
 			{
 				winText.text = "You win!";
 			}
