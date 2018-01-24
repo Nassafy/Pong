@@ -36,7 +36,7 @@ public class PlayerControler : MonoBehaviour {
 			UpdateScore();
 			if(count == 8)
 			{
-				winText.text = "You win!";
+				winText.text = "Get soced!";
 			}
 		}
 	}
